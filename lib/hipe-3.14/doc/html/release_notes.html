@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../doc/otp_doc.css" type="text/css">
+<title>Erlang -- </title>
+</head>
+<body bgcolor="white" text="#000000" link="#0000ff" vlink="#ff00ff" alink="#ff0000"><div id="container">
+<script id="js" type="text/javascript" language="JavaScript" src="../../../../doc/js/flipmenu/flipmenu.js"></script><script id="js2" type="text/javascript" src="../../../../doc/js/erlresolvelinks.js"></script><script language="JavaScript" type="text/javascript">
+            <!--
+              function getWinHeight() {
+                var myHeight = 0;
+                if( typeof( window.innerHeight ) == 'number' ) {
+                  //Non-IE
+                  myHeight = window.innerHeight;
+                } else if( document.documentElement && ( document.documentElement.clientWidth ||
+                                                         document.documentElement.clientHeight ) ) {
+                  //IE 6+ in 'standards compliant mode'
+                  myHeight = document.documentElement.clientHeight;
+                } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                  //IE 4 compatible
+                  myHeight = document.body.clientHeight;
+                }
+                return myHeight;
+              }
+
+              function setscrollpos() {
+                var objf=document.getElementById('loadscrollpos');
+                 document.getElementById("leftnav").scrollTop = objf.offsetTop - getWinHeight()/2;
+              }
+
+              function addEvent(obj, evType, fn){
+                if (obj.addEventListener){
+                obj.addEventListener(evType, fn, true);
+                return true;
+              } else if (obj.attachEvent){
+                var r = obj.attachEvent("on"+evType, fn);
+                return r;
+              } else {
+                return false;
+              }
+             }
+
+             addEvent(window, 'load', setscrollpos);
+
+             //--></script><div id="leftnav"><div class="innertube">
+<img alt="Erlang logo" src="../../../../doc/erlang-logo.png"><br><small><a href="index.html">Reference Manual</a><br><a href="release_notes.html">Release Notes</a><br><a href="../pdf/hipe-3.14.pdf">PDF</a><br><a href="../../../../doc/index.html">Top</a></small><p><strong>HiPE</strong><br><strong>Release Notes</strong><br><small>Version 3.14</small></p>
+<br><a href="javascript:openAllFlips()">Expand All</a><br><a href="javascript:closeAllFlips()">Contract All</a><p><small><strong>Chapters</strong></small></p>
+<ul class="flipMenu" imagepath="../../../../doc/js/flipmenu"><li id="no" title="HiPE Release Notes" expanded="false">HiPE Release Notes<ul>
+<li><a href="notes.html">
+              Top of chapter
+            </a></li>
+<li title="Hipe 3.14"><a href="notes.html#idm5590048">Hipe 3.14</a></li>
+<li title="Hipe 3.13"><a href="notes.html#idm5606800">Hipe 3.13</a></li>
+<li title="Hipe 3.12"><a href="notes.html#idm5824416">Hipe 3.12</a></li>
+<li title="Hipe 3.11.3"><a href="notes.html#idm5765616">Hipe 3.11.3</a></li>
+<li title="Hipe 3.11.2"><a href="notes.html#idp24186400">Hipe 3.11.2</a></li>
+<li title="Hipe 3.11.1"><a href="notes.html#idp24189552">Hipe 3.11.1</a></li>
+<li title="Hipe 3.11"><a href="notes.html#idp24194960">Hipe 3.11</a></li>
+<li title="Hipe 3.10.3"><a href="notes.html#idp24201376">Hipe 3.10.3</a></li>
+<li title="Hipe 3.10.2.2"><a href="notes.html#idp24242624">Hipe 3.10.2.2</a></li>
+<li title="Hipe 3.10.2.1"><a href="notes.html#idp24246304">Hipe 3.10.2.1</a></li>
+<li title="Hipe 3.10.2"><a href="notes.html#idp24250384">Hipe 3.10.2</a></li>
+<li title="Hipe 3.10.1"><a href="notes.html#idp24256848">Hipe 3.10.1</a></li>
+<li title="Hipe 3.10"><a href="notes.html#idp24262464">Hipe 3.10</a></li>
+<li title="Hipe 3.9.3"><a href="notes.html#idp24273696">Hipe 3.9.3</a></li>
+<li title="Hipe 3.9.2"><a href="notes.html#idp24277328">Hipe 3.9.2</a></li>
+<li title="Hipe 3.9.1"><a href="notes.html#idp24288032">Hipe 3.9.1</a></li>
+<li title="Hipe 3.9"><a href="notes.html#idp24297216">Hipe 3.9</a></li>
+<li title="Hipe 3.8.1"><a href="notes.html#idp24320304">Hipe 3.8.1</a></li>
+<li title="Hipe 3.8"><a href="notes.html#idp24334160">Hipe 3.8</a></li>
+<li title="Hipe 3.7.9"><a href="notes.html#idp24340768">Hipe 3.7.9</a></li>
+<li title="Hipe 3.7.8.1"><a href="notes.html#idp24357248">Hipe 3.7.8.1</a></li>
+<li title="Hipe 3.7.8"><a href="notes.html#idp24360992">Hipe 3.7.8</a></li>
+<li title="Hipe 3.7.7"><a href="notes.html#idp24364576">Hipe 3.7.7</a></li>
+<li title="Hipe 3.7.6"><a href="notes.html#idp24369696">Hipe 3.7.6</a></li>
+<li title="Hipe 3.7.5"><a href="notes.html#idp24382784">Hipe 3.7.5</a></li>
+<li title="Hipe 3.7.4"><a href="notes.html#idp24389312">Hipe 3.7.4</a></li>
+<li title="Hipe 3.7.3"><a href="notes.html#idp24394368">Hipe 3.7.3</a></li>
+<li title="Hipe 3.7.2"><a href="notes.html#idp24398080">Hipe 3.7.2</a></li>
+<li title="Hipe 3.7.1"><a href="notes.html#idp24401648">Hipe 3.7.1</a></li>
+<li title="Hipe 3.7"><a href="notes.html#idp24405216">Hipe 3.7</a></li>
+<li title="Hipe 3.6.9"><a href="notes.html#idp24408784">Hipe 3.6.9</a></li>
+<li title="Hipe 3.6.8"><a href="notes.html#idp24413312">Hipe 3.6.8</a></li>
+<li title="Hipe 3.6.7"><a href="notes.html#idp24416864">Hipe 3.6.7</a></li>
+<li title="Hipe 3.6.6"><a href="notes.html#idp24420416">Hipe 3.6.6</a></li>
+<li title="Hipe 3.6.5"><a href="notes.html#idp24427712">Hipe 3.6.5</a></li>
+<li title="Hipe 3.6.3"><a href="notes.html#idp24434544">Hipe 3.6.3</a></li>
+<li title="Hipe 3.6.2"><a href="notes.html#idp24439760">Hipe 3.6.2</a></li>
+<li title="Hipe 3.6.1.1"><a href="notes.html#idp24443648">Hipe 3.6.1.1</a></li>
+<li title="Hipe 3.6.1"><a href="notes.html#idp24447600">Hipe 3.6.1</a></li>
+<li title="Hipe 3.6.0"><a href="notes.html#idp24456528">Hipe 3.6.0</a></li>
+<li title="Hipe 3.5.6"><a href="notes.html#idp24462448">Hipe 3.5.6</a></li>
+</ul>
+</li></ul>
+</div></div>
+<div id="content">
+<div class="innertube">
+<div class="frontpage"></div>
+<center><h1>HiPE Release Notes</h1></center>
+<center><h4>Version 3.14</h4></center>
+<center><h4>December 18, 2015</h4></center>
+<div class="extrafrontpageinfo"><center></center></div>
+</div>
+<div class="footer">
+<hr>
+<p>Copyright © 2006-2015 Ericsson AB. All Rights Reserved.</p>
+</div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../doc/otp_doc.css" type="text/css">
+<title>Erlang -- </title>
+</head>
+<body bgcolor="white" text="#000000" link="#0000ff" vlink="#ff00ff" alink="#ff0000"><div id="container">
+<script id="js" type="text/javascript" language="JavaScript" src="../../../../doc/js/flipmenu/flipmenu.js"></script><script id="js2" type="text/javascript" src="../../../../doc/js/erlresolvelinks.js"></script><script language="JavaScript" type="text/javascript">
+            <!--
+              function getWinHeight() {
+                var myHeight = 0;
+                if( typeof( window.innerHeight ) == 'number' ) {
+                  //Non-IE
+                  myHeight = window.innerHeight;
+                } else if( document.documentElement && ( document.documentElement.clientWidth ||
+                                                         document.documentElement.clientHeight ) ) {
+                  //IE 6+ in 'standards compliant mode'
+                  myHeight = document.documentElement.clientHeight;
+                } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                  //IE 4 compatible
+                  myHeight = document.body.clientHeight;
+                }
+                return myHeight;
+              }
+
+              function setscrollpos() {
+                var objf=document.getElementById('loadscrollpos');
+                 document.getElementById("leftnav").scrollTop = objf.offsetTop - getWinHeight()/2;
+              }
+
+              function addEvent(obj, evType, fn){
+                if (obj.addEventListener){
+                obj.addEventListener(evType, fn, true);
+                return true;
+              } else if (obj.attachEvent){
+                var r = obj.attachEvent("on"+evType, fn);
+                return r;
+              } else {
+                return false;
+              }
+             }
+
+             addEvent(window, 'load', setscrollpos);
+
+             //--></script><div id="leftnav"><div class="innertube">
+<img alt="Erlang logo" src="../../../../doc/erlang-logo.png"><br><small><a href="users_guide.html">User's Guide</a><br><a href="index.html">Reference Manual</a><br><a href="release_notes.html">Release Notes</a><br><a href="../pdf/ssh-4.2.pdf">PDF</a><br><a href="../../../../doc/index.html">Top</a></small><p><strong>SSH</strong><br><strong>Release Notes</strong><br><small>Version 4.2</small></p>
+<br><a href="javascript:openAllFlips()">Expand All</a><br><a href="javascript:closeAllFlips()">Contract All</a><p><small><strong>Chapters</strong></small></p>
+<ul class="flipMenu" imagepath="../../../../doc/js/flipmenu"><li id="no" title="SSH Release Notes" expanded="false">SSH Release Notes<ul>
+<li><a href="notes.html">
+              Top of chapter
+            </a></li>
+<li title="Ssh 4.2"><a href="notes.html#idm5557376">Ssh 4.2</a></li>
+<li title="Ssh 4.1.3"><a href="notes.html#idm5658800">Ssh 4.1.3</a></li>
+<li title="Ssh 4.1.2"><a href="notes.html#idm5655184">Ssh 4.1.2</a></li>
+<li title="Ssh 4.1.1"><a href="notes.html#idm5651712">Ssh 4.1.1</a></li>
+<li title="Ssh 4.1"><a href="notes.html#idm5647632">Ssh 4.1</a></li>
+<li title="Ssh 4.0"><a href="notes.html#idp25292192">Ssh 4.0</a></li>
+<li title="Ssh 3.2.4"><a href="notes.html#idp25338144">Ssh 3.2.4</a></li>
+<li title="Ssh 3.2.3"><a href="notes.html#idp25345712">Ssh 3.2.3</a></li>
+<li title="Ssh 3.2.2"><a href="notes.html#idp25349536">Ssh 3.2.2</a></li>
+<li title="Ssh 3.2.1"><a href="notes.html#idp25355888">Ssh 3.2.1</a></li>
+<li title="Ssh 3.2"><a href="notes.html#idp25360576">Ssh 3.2</a></li>
+<li title="Ssh 3.1"><a href="notes.html#idp25370896">Ssh 3.1</a></li>
+<li title="Ssh 3.0.8"><a href="notes.html#idp25390448">Ssh 3.0.8</a></li>
+<li title="Ssh 3.0.7"><a href="notes.html#idp25394064">Ssh 3.0.7</a></li>
+<li title="Ssh 3.0.6"><a href="notes.html#idp25400784">Ssh 3.0.6</a></li>
+<li title="Ssh 3.0.5"><a href="notes.html#idp25412560">Ssh 3.0.5</a></li>
+<li title="Ssh 3.0.4"><a href="notes.html#idp25424144">Ssh 3.0.4</a></li>
+<li title="Ssh 3.0.3"><a href="notes.html#idp25428432">Ssh 3.0.3</a></li>
+<li title="Ssh 3.0.2"><a href="notes.html#idp25437776">Ssh 3.0.2</a></li>
+<li title="Ssh 3.0.1"><a href="notes.html#idp25445136">Ssh 3.0.1</a></li>
+<li title="Ssh 3.0"><a href="notes.html#idp24670368">Ssh 3.0</a></li>
+<li title="Ssh 2.1.8"><a href="notes.html#idp24685136">Ssh 2.1.8</a></li>
+<li title="Ssh 2.1.7"><a href="notes.html#idp24692912">Ssh 2.1.7</a></li>
+<li title="Ssh 2.1.6"><a href="notes.html#idp24702784">Ssh 2.1.6</a></li>
+<li title="Ssh 2.1.5"><a href="notes.html#idp24706352">Ssh 2.1.5</a></li>
+<li title="Ssh 2.1.4"><a href="notes.html#idp24712832">Ssh 2.1.4</a></li>
+<li title="Ssh 2.1.3"><a href="notes.html#idp24717888">Ssh 2.1.3</a></li>
+<li title="Ssh 2.1.2.1"><a href="notes.html#idp24740880">Ssh 2.1.2.1</a></li>
+<li title="Ssh 2.1.2"><a href="notes.html#idp24744512">Ssh 2.1.2</a></li>
+<li title="Ssh 2.1.1"><a href="notes.html#idp24754432">Ssh 2.1.1</a></li>
+<li title="Ssh 2.1"><a href="notes.html#idp24767968">Ssh 2.1</a></li>
+<li title="Ssh 2.0.9"><a href="notes.html#idp24789088">Ssh 2.0.9</a></li>
+<li title="Ssh 2.0.8"><a href="notes.html#idp24795600">Ssh 2.0.8</a></li>
+<li title="Ssh 2.0.7"><a href="notes.html#idp24799296">Ssh 2.0.7</a></li>
+<li title="Ssh 2.0.6"><a href="notes.html#idp24803008">Ssh 2.0.6</a></li>
+<li title="Ssh 2.0.5"><a href="notes.html#idp24806720">Ssh 2.0.5</a></li>
+<li title="Ssh 2.0.4"><a href="notes.html#idp24810352">Ssh 2.0.4</a></li>
+<li title="Ssh 2.0.3"><a href="notes.html#idp24820384">Ssh 2.0.3</a></li>
+<li title="Ssh 2.0.2"><a href="notes.html#idp24824032">Ssh 2.0.2</a></li>
+<li title="Ssh 2.0.1"><a href="notes.html#idp24832096">Ssh 2.0.1</a></li>
+<li title="Ssh 2.0"><a href="notes.html#idp24838624">Ssh 2.0</a></li>
+<li title="Ssh 1.1.8"><a href="notes.html#idp24853920">Ssh 1.1.8</a></li>
+<li title="Ssh 1.1.7"><a href="notes.html#idp24860416">Ssh 1.1.7</a></li>
+<li title="Ssh 1.1.6"><a href="notes.html#idp24869952">Ssh 1.1.6</a></li>
+<li title="Ssh 1.1.5"><a href="notes.html#idp24882432">Ssh 1.1.5</a></li>
+<li title="Ssh 1.1.4"><a href="notes.html#idp24889008">Ssh 1.1.4</a></li>
+<li title="Ssh 1.1.3"><a href="notes.html#idp24892640">Ssh 1.1.3</a></li>
+<li title="Ssh 1.1.2"><a href="notes.html#idp24899296">Ssh 1.1.2</a></li>
+<li title="Ssh 1.1.1"><a href="notes.html#idp26163968">Ssh 1.1.1</a></li>
+<li title="Ssh 1.1"><a href="notes.html#idp26178368">Ssh 1.1</a></li>
+<li title="Ssh 1.0.2"><a href="notes.html#idp26202416">Ssh 1.0.2</a></li>
+<li title="Ssh 1.0.1"><a href="notes.html#idp26206048">Ssh 1.0.1</a></li>
+<li title="Ssh 1.0"><a href="notes.html#idp26217248">Ssh 1.0</a></li>
+</ul>
+</li></ul>
+</div></div>
+<div id="content">
+<div class="innertube">
+<div class="frontpage"></div>
+<center><h1>SSH Release Notes</h1></center>
+<center><h4>Version 4.2</h4></center>
+<center><h4>December 18, 2015</h4></center>
+<div class="extrafrontpageinfo"><center></center></div>
+</div>
+<div class="footer">
+<hr>
+<p>Copyright © 2005-2015 Ericsson AB. All Rights Reserved.</p>
+</div>
+</div>
+</div></body>
+</html>

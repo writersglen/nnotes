@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../doc/otp_doc.css" type="text/css">
+<title>Erlang -- </title>
+</head>
+<body bgcolor="white" text="#000000" link="#0000ff" vlink="#ff00ff" alink="#ff0000"><div id="container">
+<script id="js" type="text/javascript" language="JavaScript" src="../../../../doc/js/flipmenu/flipmenu.js"></script><script id="js2" type="text/javascript" src="../../../../doc/js/erlresolvelinks.js"></script><script language="JavaScript" type="text/javascript">
+            <!--
+              function getWinHeight() {
+                var myHeight = 0;
+                if( typeof( window.innerHeight ) == 'number' ) {
+                  //Non-IE
+                  myHeight = window.innerHeight;
+                } else if( document.documentElement && ( document.documentElement.clientWidth ||
+                                                         document.documentElement.clientHeight ) ) {
+                  //IE 6+ in 'standards compliant mode'
+                  myHeight = document.documentElement.clientHeight;
+                } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                  //IE 4 compatible
+                  myHeight = document.body.clientHeight;
+                }
+                return myHeight;
+              }
+
+              function setscrollpos() {
+                var objf=document.getElementById('loadscrollpos');
+                 document.getElementById("leftnav").scrollTop = objf.offsetTop - getWinHeight()/2;
+              }
+
+              function addEvent(obj, evType, fn){
+                if (obj.addEventListener){
+                obj.addEventListener(evType, fn, true);
+                return true;
+              } else if (obj.attachEvent){
+                var r = obj.attachEvent("on"+evType, fn);
+                return r;
+              } else {
+                return false;
+              }
+             }
+
+             addEvent(window, 'load', setscrollpos);
+
+             //--></script><div id="leftnav"><div class="innertube">
+<img alt="Erlang logo" src="../../../../doc/erlang-logo.png"><br><small><a href="users_guide.html">User's Guide</a><br><a href="index.html">Reference Manual</a><br><a href="release_notes.html">Release Notes</a><br><a href="../pdf/tools-2.8.2.pdf">PDF</a><br><a href="../../../../doc/index.html">Top</a></small><p><strong>Tools</strong><br><strong>Release Notes</strong><br><small>Version 2.8.2</small></p>
+<br><a href="javascript:openAllFlips()">Expand All</a><br><a href="javascript:closeAllFlips()">Contract All</a><p><small><strong>Chapters</strong></small></p>
+<ul class="flipMenu" imagepath="../../../../doc/js/flipmenu"><li id="no" title="Tools Release Notes" expanded="false">Tools Release Notes<ul>
+<li><a href="notes.html">
+              Top of chapter
+            </a></li>
+<li title="Tools 2.8.2"><a href="notes.html#idp27818336">Tools 2.8.2</a></li>
+<li title="Tools 2.8.1"><a href="notes.html#idp27383712">Tools 2.8.1</a></li>
+<li title="Tools 2.8"><a href="notes.html#idp27387376">Tools 2.8</a></li>
+<li title="Tools 2.7.2"><a href="notes.html#idp27972720">Tools 2.7.2</a></li>
+<li title="Tools 2.7.1"><a href="notes.html#idp27651680">Tools 2.7.1</a></li>
+<li title="Tools 2.7"><a href="notes.html#idp27660368">Tools 2.7</a></li>
+<li title="Tools 2.6.15"><a href="notes.html#idp27404400">Tools 2.6.15</a></li>
+<li title="Tools 2.6.14"><a href="notes.html#idp27409280">Tools 2.6.14</a></li>
+<li title="Tools 2.6.13"><a href="notes.html#idp27425328">Tools 2.6.13</a></li>
+<li title="Tools 2.6.12"><a href="notes.html#idp27824144">Tools 2.6.12</a></li>
+<li title="Tools 2.6.11"><a href="notes.html#idp27830592">Tools 2.6.11</a></li>
+<li title="Tools 2.6.10"><a href="notes.html#idp27844640">Tools 2.6.10</a></li>
+<li title="Tools 2.6.9"><a href="notes.html#idp27475440">Tools 2.6.9</a></li>
+<li title="Tools 2.6.8"><a href="notes.html#idp27493200">Tools 2.6.8</a></li>
+<li title="Tools 2.6.7"><a href="notes.html#idp27713424">Tools 2.6.7</a></li>
+<li title="Tools 2.6.6.6"><a href="notes.html#idp27718640">Tools 2.6.6.6</a></li>
+<li title="Tools 2.6.6.5"><a href="notes.html#idp27735408">Tools 2.6.6.5</a></li>
+<li title="Tools 2.6.6.4"><a href="notes.html#idp27743232">Tools 2.6.6.4</a></li>
+<li title="Tools 2.6.6.3"><a href="notes.html#idp28423104">Tools 2.6.6.3</a></li>
+<li title="Tools 2.6.6.2"><a href="notes.html#idp28432224">Tools 2.6.6.2</a></li>
+<li title="Tools 2.6.6.1"><a href="notes.html#idp28437184">Tools 2.6.6.1</a></li>
+<li title="Tools 2.6.6"><a href="notes.html#idp28441264">Tools 2.6.6</a></li>
+<li title="Tools 2.6.5.1"><a href="notes.html#idp29165344">Tools 2.6.5.1</a></li>
+<li title="Tools 2.6.5"><a href="notes.html#idp29175568">Tools 2.6.5</a></li>
+<li title="Tools 2.6.4"><a href="notes.html#idp29185216">Tools 2.6.4</a></li>
+<li title="Tools 2.6.3"><a href="notes.html#idp29189168">Tools 2.6.3</a></li>
+<li title="Tools 2.6.2"><a href="notes.html#idp29192816">Tools 2.6.2</a></li>
+<li title="Tools 2.6.1"><a href="notes.html#idp29197824">Tools 2.6.1</a></li>
+<li title="Tools 2.6"><a href="notes.html#idp29208272">Tools 2.6</a></li>
+<li title="Tools 2.5.5"><a href="notes.html#idp29212496">Tools 2.5.5</a></li>
+<li title="Tools 2.5.4.1"><a href="notes.html#idp28553296">Tools 2.5.4.1</a></li>
+<li title="Tools 2.5.4"><a href="notes.html#idp28557328">Tools 2.5.4</a></li>
+<li title="Tools 2.5.3"><a href="notes.html#idp28564288">Tools 2.5.3</a></li>
+<li title="Tools 2.5.2"><a href="notes.html#idp28569088">Tools 2.5.2</a></li>
+<li title="Tools 2.5.1"><a href="notes.html#idp28573040">Tools 2.5.1</a></li>
+<li title="Tools 2.5"><a href="notes.html#idp28576944">Tools 2.5</a></li>
+<li title="Tools 2.4.7"><a href="notes.html#idp28594672">Tools 2.4.7</a></li>
+<li title="Tools 2.4.6"><a href="notes.html#idp28599072">Tools 2.4.6</a></li>
+<li title="Tools 2.4.5"><a href="notes.html#idp29098752">Tools 2.4.5</a></li>
+<li title="Tools 2.4.4"><a href="notes.html#idp29103600">Tools 2.4.4</a></li>
+<li title="Tools 2.4.3"><a href="notes.html#idp29108000">Tools 2.4.3</a></li>
+<li title="Tools 2.4.2"><a href="notes.html#idp29115392">Tools 2.4.2</a></li>
+<li title="Tools 2.4.1"><a href="notes.html#idp29119760">Tools 2.4.1</a></li>
+</ul>
+</li></ul>
+</div></div>
+<div id="content">
+<div class="innertube">
+<div class="frontpage"></div>
+<center><h1>Tools Release Notes</h1></center>
+<center><h4>Version 2.8.2</h4></center>
+<center><h4>December 18, 2015</h4></center>
+<div class="extrafrontpageinfo"><center></center></div>
+</div>
+<div class="footer">
+<hr>
+<p>Copyright © 1997-2015 Ericsson AB. All Rights Reserved.</p>
+</div>
+</div>
+</div></body>
+</html>
